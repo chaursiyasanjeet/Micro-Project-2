@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nav-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #6F6AF7;
+    color: white;
+    padding: 0 20px;
+    position: fixed;
+}
+
+.nav-title {
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 79px;
+}
+
+.nav-and-search {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    align-self: center;
+
+}
+
+#drop-down {
+    position: relative;
+    right: 38px;
+    bottom: 4px;
+    font-size: 14px
+}
+
+li {
+    padding: 0 20px;
+
+}
+
+#search-box {
+    background-color: white;
+    width: 240px;
+    height: 30px;
+    border-radius: 60px;
+    border: none;
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9F9F9F;
+
+}
+
+.search-text-input {
+    border: none;
+    height: 15px;
+}
+
+.search-sumbit {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.search-lens {
+    width: 20px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 3px;
+
+}
