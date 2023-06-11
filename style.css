@@ -163,7 +163,7 @@ body {
     display: flex;
     justify-content: space-around;
     color: white;
-    padding: 0 35px 50px 45px
+    padding: 0 60px 50px 45px
 }
 
 .static-details>div {
@@ -215,6 +215,122 @@ body {
     right: 90px;
     background-color: white;
     position: fixed;
+}
 
 
+/* last section CSS code */
+.last-section {
+    background-color: #483EFF;
+    border-radius: 15px;
+    height: 500px;
+    width: 90%;
+    position: relative;
+    left: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 40px;
+}
+
+.info-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.info-sidebar>div {
+    width: 300px;
+    height: 97px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 63px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.info-sidebar>div:hover {
+    background-color: #6F6AF7;
+}
+
+.info-sidebar div:first-child {
+    background: #BCE0F6;
+    color: black;
+    border: none;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+
+
+.info-screen {
+    width: 69%;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+    padding: 30px 30px;
+    color: #04285A;
+}
+
+.info-screen>ul>li {
+    display: block;
+    margin: 20px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 33px;
+    letter-spacing: 0.105em;
+}
+
+.info-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+    position: relative;
+    left: 15px;
+}
+
+.info-screen>ul>li>span {
+    color: #143565;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
+.next-button {
+    float: right;
+    background: #000000;
+    border-radius: 5px;
+    width: 180px;
+    height: 70px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+
+}
+
+.next-button:hover {
+    background-color: #383333;
 }
