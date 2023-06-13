@@ -10,6 +10,7 @@
 body {
     width: 100%;
     padding-top: 12vh;
+    height: 1500px;
 }
 
 .nav-box {
@@ -111,10 +112,10 @@ body {
 
 /* section 1 CSS */
 .section-1 {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 60px 0 50px 70px;
+    justify-content: space-around;
+    margin-top: 12vh;
+    padding: 0px 0 50px 70px;
 }
 
 
@@ -142,10 +143,10 @@ body {
 
 
 .social-media-box {
-    align-self: row-reverse;
+    float: right;
+    position: sticky;
     top: 12vh;
-    position: relative;
-    top: 50px;
+    margin-top: 25vh;
 }
 
 .social-media-box>a>img {
@@ -163,7 +164,7 @@ body {
     display: flex;
     justify-content: space-around;
     color: white;
-    padding: 0 60px 50px 45px
+    padding: 0 35px 50px 60px
 }
 
 .static-details>div {
@@ -210,11 +211,16 @@ body {
     border-radius: 50%;
     padding: 10px;
     box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
-    position: relative;
+    position: absolute;
     bottom: 5px;
     right: 90px;
     background-color: white;
     position: fixed;
+    cursor: pointer;
+}
+
+.chat-bot:hover {
+    background-color: #BCE0F6;
 }
 
 
@@ -224,8 +230,7 @@ body {
     border-radius: 15px;
     height: 500px;
     width: 90%;
-    position: relative;
-    left: 60px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 20px 20px 20px 40px;
@@ -280,15 +285,17 @@ body {
 .info-screen>ul>li {
     display: block;
     margin: 20px;
-    position: relative;
+    /* position: relative;
     left: 30px;
-    top: 20px;
+    top: 20px; 
+    */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 33px;
     letter-spacing: 0.105em;
+    padding-left: 10px;
 }
 
 .info-header {
@@ -298,8 +305,8 @@ body {
     font-size: 38px;
     line-height: 46px;
     letter-spacing: 0.105em;
-    position: relative;
-    left: 15px;
+    /* position: relative;
+    left: 15px; */
 }
 
 .info-screen>ul>li>span {
@@ -310,6 +317,7 @@ body {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.05em;
+    padding-left: 10px;
 }
 
 .next-button {
@@ -325,10 +333,8 @@ body {
     font-size: 30px;
     line-height: 35px;
     letter-spacing: 0.05em;
-    position: relative;
-    top: 50px;
     cursor: pointer;
-
+    margin-bottom: 0px;
 }
 
 .next-button:hover {
